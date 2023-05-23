@@ -1,6 +1,6 @@
 <br>
 
-[![Button Acosom]][LinkAcosom] [![Button Twitter]][LinkTwitter] [![Button Linkedin]][LinkLinkedin]
+[![Button Acosom]][LinkAcosom] [![Button Email]][linkEmail] [![Button Linkedin]][LinkLinkedin]
 
 <br>
 

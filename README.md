@@ -1,3 +1,14 @@
+<br>
+
+[![Button Acosom]][LinkAcosom] [![Button Twitter]][LinkTwitter] [![Button Linkedin]][LinkLinkedin]
+
+<br>
+
+This repo contains the code to build a Flink job that computes real-time OHLCV from a Kafka topic containing flowing Deribit trades. In this README you will find all instructions to
+
+1. Build the Flink job
+2. Launch the infrastructure to run the actual Flink job
+
 # Build the Flink Job
 
 Building the Flink job (which is simply building a `.jar` file) requires having the basic Java/Maven tooling installed on your machine.
@@ -98,4 +109,14 @@ flink@jobmanager~$ flink run OHLCV-1.0-SNAPSHOT-jar-with-dependencies.jar
 
 :tada: After about 1 minute (remember, it is a 1-minute time aggregation) you should start seeing some OHLCV data flowing into the Kafka cluster inside the `OHLCV` topic. Congrats!
 
-:warning: If it is not the case, please reach out to me via email at [theodore.curtil@icloud.com](mailto:theodore.curtil@icloud.com) or [theodore.curtil@acosom.com](mailto:theodore.curtil@acosom.com).
+:warning: If it is not the case, please reach out to me via email at [theodore.curtil@icloud.com](mailto:theodore.curtil@icloud.com) or [theodore.curtil@acosom.com](mailto:theodore.curtil@acosom.com). I will help you.
+
+<!---------------------------------------------------------------------------->
+
+[Button Acosom]: https://img.shields.io/badge/Acosom-Read%20blog%20post-orange
+[Button Email]: https://img.shields.io/badge/-theodore.curtil@icloud.com-grey?style=social&logo=gmail
+[Button Linkedin]: https://img.shields.io/badge/LinkedIn-Follow%20Acosom-blue
+
+[LinkAcosom]: https://acosom.com/en/?utm_source=github&utm_medium=social&utm_campaign=ohlcv-repo 'Contact us!'
+[LinkEmail]: mailto:theodore.curtil@icloud.com 'Send me an email'
+[LinkLinkedin]: https://ch.linkedin.com/company/acosom 'Follow us on LinkedIn :)'

@@ -113,7 +113,7 @@ flink@jobmanager~$ flink run OHLCV-1.0-SNAPSHOT-jar-with-dependencies.jar
 
 <!---------------------------------------------------------------------------->
 
-[Button Acosom]: https://img.shields.io/badge/Acosom-Read%20blog%20post-orange
+[Button Acosom]: https://img.shields.io/badge/Acosom-Contact%20us!-orange
 [Button Email]: https://img.shields.io/badge/-theodore.curtil@icloud.com-grey?style=social&logo=gmail
 [Button Linkedin]: https://img.shields.io/badge/LinkedIn-Follow%20Acosom-blue
 
